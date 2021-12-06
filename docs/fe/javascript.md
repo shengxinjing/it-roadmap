@@ -123,7 +123,7 @@
 * [小黄书| 你不知道的javascript 上](https://book.douban.com/subject/26351021/)
 * [小黄书| 你不知道的javascript 中](https://book.douban.com/subject/26854244/)
 * [Javasript二十年](https://book.douban.com/subject/35446937/)
-* [绿宝书](https://book.douban.com/subject/35085910/)
+* [绿皮书](https://book.douban.com/subject/35085910/)
 
 ## 付费教程
 * [极客时间| winter重学前端](http://gk.link/a/10QbX)
