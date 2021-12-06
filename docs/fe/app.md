@@ -25,3 +25,4 @@ Flutter连语言都没用Javascript，用dart构建，相比React Native学习�
 
 ## 精品文章
 ## 免费视频
+* [Web前端工程师的Flutter入门教程](https://www.bilibili.com/video/BV1ev41187gs)
