@@ -125,6 +125,7 @@
 * [Javasript二十年](https://book.douban.com/subject/35446937/)
 * [绿宝书](https://book.douban.com/subject/35085910/)
 * [前端开发核心知识进阶](https://book.douban.com/subject/35218831/)
+* [JavaScript设计模式](https://book.douban.com/subject/26589719/)
 
 ## 付费教程
 * [极客时间| winter重学前端](http://gk.link/a/10QbX)
