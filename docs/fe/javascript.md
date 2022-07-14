@@ -129,6 +129,7 @@
 * [前端开发核心知识进阶](https://book.douban.com/subject/35218831/)
 * [JavaScript忍者秘籍](https://book.douban.com/subject/26638316/)
 * [深入理解现代JavaScript](https://book.douban.com/subject/35863220/)
+* [JavaScript设计模式与开发实践](https://book.douban.com/subject/26382780/)
 
 ## 付费教程
 * [极客时间| winter重学前端](http://gk.link/a/10QbX)
