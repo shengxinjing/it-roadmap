@@ -1,7 +1,11 @@
 let audio = null
 
+function getMp3Url(text) {
+  return `https://api.relingo.net/api/getAzureTts?text=${text}&voice=en-US-AndrewNeural`
+}
+
 function playMp3(text) {
-  const url = `https://api.relingo.net/api/getAzureTts?text=${text}&voice=en-US-AndrewNeural`
+  const url = getMp3Url(text)
   if (audio) {
     audio.pause()
   }
@@ -17,6 +21,13 @@ function addPlayButtonsToRelingoBlocks() {
 
   // 遍历每个元素
   relingoBlocks.forEach((block) => {
+    console.log(block.textContent)
+    const readText = block.textContent.trim()
+    if (!readText || readText.split(' ').length < 7) {
+      // 句子太短就不读了
+      return
+    }
+
     block.style.position = 'relative'
     // 创建播放按钮
     const playButton = document.createElement('span')
@@ -27,10 +38,9 @@ function addPlayButtonsToRelingoBlocks() {
     // 添加点击事件监听器
     playButton.addEventListener('click', (event) => {
       // 获取元素的文本内容
-      const text = block.innerText.trim().slice(2)
-      if (text) {
+      if (readText) {
         // 调用 playMp3 函数播放文本
-        playMp3(text)
+        playMp3(readText)
       }
       // 阻止事件冒泡
       event.stopPropagation()
