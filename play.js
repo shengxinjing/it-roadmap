@@ -8,7 +8,7 @@ function playMp3(text) {
   audio = new Audio(url)
   audio.play()
 }
-playMp3('hello google')
+// playMp3('hello interview')
 
 // 为所有带有 data-relingo-block 属性的元素添加播放按钮
 function addPlayButtonsToRelingoBlocks() {
